@@ -33,6 +33,7 @@ def solve(s,*a):
 				ov+=[n]
 				o[n]=0
 			m[-1][ov.index(n)]=v
+	print(o,om,ov,m)
 	for i in range(0,l):
 		if (m[i][i]==0):
 			raise RuntimeError
